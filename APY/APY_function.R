@@ -13,10 +13,8 @@
 # INPUTS
 #   G    = Genomic relationship matrices
 #   core = vector indicating which animals you want to be core
-#   prop = proportion of animals you want to be core animals
 
 # BEGIN
-
 APY <- function(G, core){
   
   # set n
@@ -52,20 +50,14 @@ APY <- function(G, core){
   LEFTbot = cbind(zeros21, zeros22)
   LEFT    = rbind(LEFTtop, LEFTbot)
   
-  print(LEFT)
-  
   # put together RIGHT
   RIGHTtop = (-1*Gccinv) %*% Gcn
   RIGHTbot = diag(n2)
   RIGHT = rbind(RIGHTtop, RIGHTbot)
   
-  print(RIGHT)
-  
   # Create M
   Gii = diag(n2) * Gnn
   
-  print(Gii)
-
   # initialize vector
 	Mvec <- matrix(0, ncol=n2, nrow=n2)
 	
@@ -83,12 +75,13 @@ APY <- function(G, core){
   # create M by adding Gii to Mvec (diagonal)
 	M = Gii + Mvec
   
+	# get inverse of M
 	Minv = solve(M)
   
+	# calculate final APY inverse
 	GinvAPY = LEFT + (RIGHT %*% Minv %*% t(RIGHT))
 	
-	print(GinvAPY)
-	
+	# return value of APY inverse
   return(GinvAPY)
   
 }
