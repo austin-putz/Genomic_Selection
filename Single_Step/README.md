@@ -16,3 +16,7 @@ You can find the software here: [http://nce.ads.uga.edu/wiki/doku.php] or [downl
 2. Then run the application program [here](http://nce.ads.uga.edu/wiki/doku.php?id=application_programs)
   * run with `blupf90 <<< renf90.par` (or choose your needed program from the list)
   * `renf90.par` is the general parameter file written by `renumf90` 
+
+## APY
+
+Algorithm for Proven and Young (APY) was created by I. Misztal (2014, 2016). This algorithm uses the fact that there is limited information in the G matrix. You only need to do the direct inverse of a subset of animals in G and then use recursion to get the rest of the inverse. This has proven to be as accurate (or more so) than the raw inverse. 
