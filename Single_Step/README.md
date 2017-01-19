@@ -7,5 +7,5 @@ They have not been tested really. But they should help you
 understand the H matrix. It uses VanRaden (2008) basic method
 ZZ'/sum2pq. 
 
-You can find the software [here](http://nce.ads.uga.edu/wiki/doku.php)
+You can find the software here: [http://nce.ads.uga.edu/wiki/doku.php]
 
