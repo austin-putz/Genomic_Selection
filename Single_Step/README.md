@@ -7,7 +7,10 @@ They have not been tested really. But they should help you
 understand the H matrix. It uses VanRaden (2008) basic method
 ZZ'/sum2pq. 
 
-You can find the software here: [http://nce.ads.uga.edu/wiki/doku.php] or [download](http://nce.ads.uga.edu/wiki/doku.php?id=distribution)
+You can find the software here: 
+<a href="http://nce.ads.uga.edu/wiki/doku.php" target="_blank">New Tab</a>
+or 
+<a href="http://nce.ads.uga.edu/wiki/doku.php?id=distribution" target="_blank">New Tab</a>
 
 ## How to use BLUPF90 software
 
