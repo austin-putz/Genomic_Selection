@@ -8,7 +8,7 @@ understand the H matrix. It uses VanRaden (2008) basic method
 ZZ'/sum2pq. 
 
 You can find the software here: 
-[UGA Home Page](http://nce.ads.uga.edu/wiki/doku.php){:target="_blank"}
+[UGA Home Page](http://nce.ads.uga.edu/wiki/doku.php){:target="_tab"}
 or 
 <a href="http://nce.ads.uga.edu/wiki/doku.php?id=distribution" target="_blank">New Tab</a>
 
