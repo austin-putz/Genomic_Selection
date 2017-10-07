@@ -19,6 +19,8 @@ or
 2. Then run the application program [here](http://nce.ads.uga.edu/wiki/doku.php?id=application_programs)
   * run with `blupf90 <<< renf90.par` (or choose your needed program from the list)
   * `renf90.par` is the general parameter file written by `renumf90` 
+  
+  You can find more information on my other GitHub page [here](https://github.com/austin-putz/BLUPF90). 
 
 ## APY
 
