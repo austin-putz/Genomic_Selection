@@ -18,6 +18,10 @@ Single-step GBLUP was an addition to the traditional GBLUP (<cite>VanRaden, 2008
 
 Algorithm for Proven and Young (APY) was created by <cite>Misztal (2014, 2016)</cite>. This algorithm uses the fact that there is limited information in the <b>G</b> matrix. You only need to do the direct inverse of a subset of animals in <b>G</b> and then use recursion to get the rest of the inverse. This has proven to be as accurate (or more so) than the raw inverse. 
 
+## Creating the G matrix with Julia
+
+`createG.jl` is a scipt for Julia (probably out of date at the pace that Julia is developing) 
+for creating the <b>G</b> matrix "by hand". 
 
 
 
